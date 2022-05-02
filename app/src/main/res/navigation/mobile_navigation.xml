@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/decisionFragment">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.knoxolotl.petpal.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.knoxolotl.petpal.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_settingPage"
+            app:destination="@id/settingsPage" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_manageHouseholdPage"
+            app:destination="@id/manageHouseholdPage" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_manageNotificationsPage"
+            app:destination="@id/manageNotificationsPage" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_managePetsPage"
+            app:destination="@id/managePetsPage" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_manageProfilePage"
+            app:destination="@id/manageProfilePage" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_manageUsersPage"
+            app:destination="@id/manageUsersPage" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_householdSelection"
+            app:destination="@id/householdSelection" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.knoxolotl.petpal.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/settingsPage"
+        android:name="com.knoxolotl.petpal.ui.dashboard.pages.settings.SettingsPage"
+        android:label="fragment_setting_page"
+        tools:layout="@layout/fragment_settings_page" />
+    <fragment
+        android:id="@+id/manageHouseholdPage"
+        android:name="com.knoxolotl.petpal.ui.dashboard.pages.managehousehold.ManageHouseholdPage"
+        android:label="fragment_manage_household_page"
+        tools:layout="@layout/fragment_manage_household_page" >
+        <action
+            android:id="@+id/action_manageHouseholdPage_to_addMember"
+            app:destination="@id/addMember" />
+        <action
+            android:id="@+id/action_manageHouseholdPage_to_removeMember"
+            app:destination="@id/removeMember" />
+        <action
+            android:id="@+id/action_manageHouseholdPage_to_changeHouseholdName"
+            app:destination="@id/changeHouseholdName" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageNotificationsPage"
+        android:name="com.knoxolotl.petpal.ui.dashboard.pages.ManageNotificationsPage"
+        android:label="fragment_manage_notifications_page"
+        tools:layout="@layout/fragment_manage_notifications_page" />
+    <fragment
+        android:id="@+id/managePetsPage"
+        android:name="com.knoxolotl.petpal.ui.dashboard.pages.managepets.ManagePetsPage"
+        android:label="fragment_manage_pets_page"
+        tools:layout="@layout/fragment_manage_pets_page" >
+        <action
+            android:id="@+id/action_managePetsPage_to_addPet"
+            app:destination="@id/addPet" />
+        <action
+            android:id="@+id/action_managePetsPage_to_removePet"
+            app:destination="@id/removePet" />
+        <action
+            android:id="@+id/action_managePetsPage_to_chooseModifyPet"
+            app:destination="@id/chooseModifyPet" />
+    </fragment>
+    <fragment
+        android:id="@+id/manageProfilePage"
+        android:name="com.knoxolotl.petpal.ui.dashboard.pages.ManageProfilePage"
+        android:label="fragment_manage_profile_page"
+        tools:layout="@layout/fragment_manage_profile_page" />
+    <fragment
+        android:id="@+id/manageUsersPage"
+        android:name="com.knoxolotl.petpal.ui.dashboard.pages.ManageUsersPage"
+        android:label="fragment_manage_users_page"
+        tools:layout="@layout/fragment_manage_users_page" />
+    <fragment
+        android:id="@+id/addPet"
+        android:name="com.knoxolotl.petpal.ui.dashboard.pages.managepets.AddPet"
+        android:label="fragment_add_pet"
+        tools:layout="@layout/fragment_add_pet" >
+        <action
+            android:id="@+id/action_addPet_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/modifyPet"
+        android:name="com.knoxolotl.petpal.ui.dashboard.pages.managepets.ModifyPet"
+        android:label="fragment_modify_pet"
+        tools:layout="@layout/fragment_modify_pet" />
+    <fragment
+        android:id="@+id/removePet"
+        android:name="com.knoxolotl.petpal.ui.dashboard.pages.managepets.RemovePet"
+        android:label="fragment_remove_pet"
+        tools:layout="@layout/fragment_remove_pet" />
+    <fragment
+        android:id="@+id/createOrJoinHousehold"
+        android:name="com.knoxolotl.petpal.ui.auth_fragments.CreateOrJoinHousehold"
+        android:label="fragment_create_or_join_household"
+        tools:layout="@layout/fragment_create_or_join_household" >
+        <action
+            android:id="@+id/action_createOrJoinHousehold_to_createHousehold"
+            app:destination="@id/createHousehold" />
+        <action
+            android:id="@+id/action_createOrJoinHousehold_to_joinHousehold"
+            app:destination="@id/joinHousehold" />
+        <action
+            android:id="@+id/action_createOrJoinHousehold_to_householdSelection"
+            app:destination="@id/householdSelection" />
+    </fragment>
+    <fragment
+        android:id="@+id/createHousehold"
+        android:name="com.knoxolotl.petpal.ui.auth_fragments.CreateHousehold"
+        android:label="fragment_create_household"
+        tools:layout="@layout/fragment_create_household" >
+        <action
+            android:id="@+id/action_createHousehold_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/joinHousehold"
+        android:name="com.knoxolotl.petpal.ui.auth_fragments.JoinHousehold"
+        android:label="fragment_join_household"
+        tools:layout="@layout/fragment_join_household" >
+        <action
+            android:id="@+id/action_joinHousehold_to_navigation_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/addMember"
+        android:name="com.knoxolotl.petpal.ui.dashboard.pages.managehousehold.AddMember"
+        android:label="fragment_add_member"
+        tools:layout="@layout/fragment_add_member" />
+    <fragment
+        android:id="@+id/removeMember"
+        android:name="com.knoxolotl.petpal.ui.dashboard.pages.managehousehold.RemoveMember"
+        android:label="fragment_remove_member"
+        tools:layout="@layout/fragment_remove_member" />
+    <fragment
+        android:id="@+id/householdSelection"
+        android:name="com.knoxolotl.petpal.changehousehold.HouseholdSelection"
+        android:label="fragment_household_selection"
+        tools:layout="@layout/fragment_household_selection" >
+        <action
+            android:id="@+id/action_householdSelection_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_householdSelection_to_createOrJoinHousehold"
+            app:destination="@id/createOrJoinHousehold" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseModifyPet"
+        android:name="com.knoxolotl.petpal.ui.dashboard.pages.managepets.ChooseModifyPet"
+        android:label="ChooseModifyPet" >
+        <action
+            android:id="@+id/action_chooseModifyPet_to_modifyPet"
+            app:destination="@id/modifyPet" />
+    </fragment>
+    <fragment
+        android:id="@+id/decisionFragment"
+        android:name="com.knoxolotl.petpal.ui.auth_fragments.DecisionFragment"
+        android:label="fragment_decision"
+        tools:layout="@layout/fragment_decision" >
+        <action
+            android:id="@+id/action_decisionFragment_to_createOrJoinHousehold"
+            app:destination="@id/createOrJoinHousehold" />
+        <action
+            android:id="@+id/action_decisionFragment_to_navigation_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_decisionFragment_to_householdSelection"
+            app:destination="@id/householdSelection" />
+    </fragment>
+    <fragment
+        android:id="@+id/changeHouseholdName"
+        android:name="com.knoxolotl.petpal.ui.dashboard.pages.managehousehold.ChangeHouseholdName"
+        android:label="fragment_change_household_name"
+        tools:layout="@layout/fragment_change_household_name" />
+</navigation>

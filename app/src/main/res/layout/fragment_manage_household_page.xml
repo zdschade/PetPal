@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.dashboard.pages.managehousehold.ManageHouseholdPage">
+
+    <Button
+        android:id="@+id/nav_add_member_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
+        android:background="@drawable/carousel_item_bg"
+        android:text="Add member"/>
+
+    <Button
+        android:id="@+id/nav_remove_member_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
+        android:background="@drawable/carousel_item_bg"
+        android:text="Remove member"/>
+
+    <Button
+        android:id="@+id/nav_change_name_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:background="@drawable/carousel_item_bg"
+        android:text="Change household name"/>
+
+</LinearLayout>

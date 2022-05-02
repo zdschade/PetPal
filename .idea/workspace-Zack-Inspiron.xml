@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c54ffb4c-9597-4060-a4e2-b2c4c90ee15d" name="Default Changelist" comment="Added member removal">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/knoxolotl/petpal/ui/auth_fragments/CreateOrJoinHousehold.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/knoxolotl/petpal/ui/auth_fragments/CreateOrJoinHousehold.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/knoxolotl/petpal/ui/home/modulegrid/PetDataAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/knoxolotl/petpal/ui/home/modulegrid/PetDataAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../projects/project_03/android/app/src/main/java/com/knoxolotl/hustagram/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../projects/project_03/android/app/src/main/java/com/knoxolotl/hustagram/Login.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\zdsch\.android\avd\Pixel_2_API_29.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="27RyNsuaHy2mZZ4sy63a3t9sk4n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zdsch\OneDrive\Documents\HU\Spring 2022\Smart Phone Programming\Zachary_Schade_CISC349\final_project\android\app" />
+      <recent name="C:\Users\zdsch\OneDrive\Documents\HU\Spring 2022\Smart Phone Programming\Zachary_Schade_CISC349\final_project\android\app\src\main\res\layout" />
+      <recent name="C:\Users\zdsch\OneDrive\Documents\HU\Spring 2022\Smart Phone Programming\Zachary_Schade_CISC349\final_project\android\app\src\main\res\drawable-v24" />
+      <recent name="C:\Users\zdsch\OneDrive\Documents\HU\Spring 2022\Smart Phone Programming\Zachary_Schade_CISC349\final_project\android\app\src\main\res\xml" />
+    </key>
+    <key name="android.template.2110050712">
+      <recent name="com.knoxolotl.petpal" />
+    </key>
+    <key name="android.template.238859353">
+      <recent name="com.knoxolotl.petpal.ui.dashboard" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.knoxolotl.petpal.ui.home" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.knoxolotl.petpal.ui.dashboard.pages" />
+      <recent name="com.knoxolotl.petpal" />
+      <recent name="com.knoxolotl.petpal.ui.home" />
+    </key>
+    <key name="android.template.-1602042195">
+      <recent name="com.knoxolotl.petpal" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="PetPal.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c54ffb4c-9597-4060-a4e2-b2c4c90ee15d" name="Default Changelist" comment="" />
+      <created>1649297155880</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649297155880</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial upload">
+      <created>1649297340097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649297340097</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added pet carousel, started staggered grid">
+      <created>1649438527719</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649438527719</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Started grid layout, set up adapter and made some changes to PetData classes">
+      <created>1649463571468</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649463571468</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Made some progress on accessing grid items">
+      <created>1649469725323</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649469725323</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Checkboxes (should) work now. Improved carousel visuals. Made checkboxes dynamic.">
+      <created>1649480883935</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649480883935</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added a ton of comments">
+      <created>1649481776756</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1649481776756</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Refactored Pet class to hold all data instead of containing a PetData subclass">
+      <created>1649537351832</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649537351832</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added a DataHistory class to more effectively manage the logs">
+      <created>1649616662874</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1649616662874</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added a bunch of fragments for management and settings">
+      <created>1649726579054</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1649726579054</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added &quot;add pet&quot; and &quot;remove pet&quot; functionality">
+      <created>1649808706143</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1649808706143</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Started setting up new user flow. Not complete yet.">
+      <created>1649873630347</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1649873630347</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Made a static accessible petsArray stored in MainActivity. Will need to be re-done per activity.">
+      <created>1649910212258</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1649910212258</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fixed signup process, need to figure out how to update pets">
+      <created>1649968650799</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1649968650800</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added option to select household if not selected, fixed HomeFragment populating data">
+      <created>1650248711018</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1650248711018</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added member removal">
+      <created>1650424863078</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1650424863078</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added member removal">
+      <created>1650425037042</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1650425037042</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fixed weird spacing on data view, removed some leftover code">
+      <created>1650512890121</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1650512890121</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Remove &quot;User Management&quot; and half-fixed a bug on the home screen">
+      <created>1650515069578</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1650515069578</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Cleaned up some code and fixed water incrementer">
+      <created>1650589200006</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1650589200006</updated>
+    </task>
+    <task id="LOCAL-00020" summary="ModifyPet works, change time format to 24hr">
+      <created>1650592618148</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1650592618148</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added &quot;Next up&quot; display on home page">
+      <created>1650596193619</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1650596193619</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Made logout button work">
+      <created>1650597919293</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1650597919293</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Started adding notifications, added chips for tasks, added setting for task chips">
+      <created>1650678365569</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1650678365569</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added log, added &quot;type&quot; field to DataHistory for this">
+      <created>1650682292543</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1650682292543</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Fixed some formatting and finally removed the title bar spacing">
+      <created>1650683847743</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1650683847743</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Attempted to fix some new user login bugs. Not done yet.">
+      <created>1650685936575</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1650685936575</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial upload" />
+    <MESSAGE value="Added pet carousel, started staggered grid" />
+    <MESSAGE value="Started grid layout, set up adapter and made some changes to PetData classes" />
+    <MESSAGE value="Made some progress on accessing grid items" />
+    <MESSAGE value="Checkboxes (should) work now. Improved carousel visuals. Made checkboxes dynamic." />
+    <MESSAGE value="Added a ton of comments" />
+    <MESSAGE value="Refactored Pet class to hold all data instead of containing a PetData subclass" />
+    <MESSAGE value="Added a DataHistory class to more effectively manage the logs" />
+    <MESSAGE value="Added a bunch of fragments for management and settings" />
+    <MESSAGE value="Added &quot;add pet&quot; and &quot;remove pet&quot; functionality" />
+    <MESSAGE value="Started setting up new user flow. Not complete yet." />
+    <MESSAGE value="Made a static accessible petsArray stored in MainActivity. Will need to be re-done per activity." />
+    <MESSAGE value="Fixed signup process, need to figure out how to update pets" />
+    <MESSAGE value="Added option to select household if not selected, fixed HomeFragment populating data" />
+    <MESSAGE value="Added member removal" />
+    <MESSAGE value="Fixed weird spacing on data view, removed some leftover code" />
+    <MESSAGE value="Remove &quot;User Management&quot; and half-fixed a bug on the home screen" />
+    <MESSAGE value="Cleaned up some code and fixed water incrementer" />
+    <MESSAGE value="ModifyPet works, change time format to 24hr" />
+    <MESSAGE value="Added &quot;Next up&quot; display on home page" />
+    <MESSAGE value="Made logout button work" />
+    <MESSAGE value="Started adding notifications, added chips for tasks, added setting for task chips" />
+    <MESSAGE value="Added log, added &quot;type&quot; field to DataHistory for this" />
+    <MESSAGE value="Fixed some formatting and finally removed the title bar spacing" />
+    <MESSAGE value="Attempted to fix some new user login bugs. Not done yet." />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempted to fix some new user login bugs. Not done yet." />
+  </component>
+</project>

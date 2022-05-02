@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ImageButton
+        android:id="@+id/display_increment_button"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/carousel_item_bg"
+        android:foreground="@android:drawable/ic_input_add"
+        android:foregroundTint="@color/black"
+        android:src="@drawable/carousel_item_bg" />-->
+
+    <Button
+        android:id="@+id/display_increment_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:backgroundTint="@color/black"
+        android:background="@android:drawable/ic_input_add"/>
+
+
+
+</LinearLayout>
